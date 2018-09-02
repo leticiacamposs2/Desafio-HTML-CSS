@@ -13,7 +13,7 @@ Os valores de referência para adaptação da interface foi:
 * c.	Em Tablets: Largura Máx. de 750px
 * d.	Em Celulares: Largura Automática
 
-O resultado do meu trabalho vocês conferem aqui: (https://leticiacamposs2.github.io/)
+O resultado do meu trabalho vocês conferem aqui: https://leticiacamposs2.github.io/
 
 # Torçam por mim, haha :)
 Desafio WoMakersCode!
