@@ -47,11 +47,11 @@ body h3 {
   flex-direction: column;
   align-items: center;
   font-size: 14px;
-  max-width: 1170px;
+  padding: 14px;
 }
 
 .text-container {
-  width: 90.90%;
+  width: 90%;
   display: flex;
   margin-top: 10px;
 }
