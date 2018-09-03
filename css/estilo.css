@@ -54,14 +54,16 @@ body h3 {
   width: 90%;
   display: flex;
   margin-top: 10px;
+  min-width: 200px;
 }
 
 .left {
   width: 30%;
+  margin-right: 10px;
 }
   
 .right {
-  width: 75%;
+  width: 70%;
   
 }
 
@@ -71,19 +73,15 @@ body h3 {
   border: 1px solid #ddd;
   padding: 35px;
   list-style-type: none;
-  margin-right: 10px;
   margin: 1;
-  padding: 1;
 }
 
-.meusContatos {
-  height: 40vh;
-  margin-top: -2em;
-}
+.meusContatos {}
 
 .meusContatos a {
   display: block;
   padding-bottom: 2px;
+  text-decoration: none;
 }
 
 .comunidades p {
@@ -94,6 +92,16 @@ body h3 {
 
 .comunidades h3 {
   margin-top: 2em;  
+}
+
+/* link que foi visitado */
+.comunidades a:visited {
+    color: black;
+}
+ 
+/* mouse over */
+.comunidades a:hover {
+  font-weight: bold
 }
 
 .row {
@@ -123,7 +131,7 @@ body h3 {
 a.	Telas Grandes: Largura Máx. de 1170px
 b.	Desktops: Largura Máx. de 970px
 c.	Em Tablets: Largura Máx. de 750px
-d.	Em Celulares: Largura Automática 
+d.	Em Celulares: Largura Automática
 */
 
 @media (max-width: 970px){
@@ -149,7 +157,7 @@ d.	Em Celulares: Largura Automática
         display: inline-block;
         width: 100%;
         text-align: center;
-        padding: 10px;
+        padding: 0px;
         margin: 0;
     }
 }
