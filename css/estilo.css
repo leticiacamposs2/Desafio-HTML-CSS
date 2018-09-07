@@ -54,20 +54,19 @@ body h3 {
   width: 90%;
   display: flex;
   margin-top: 10px;
-  min-width: 200px;
 }
 
 .left {
   width: 30%;
   margin-right: 10px;
 }
-  
+
 .right {
   width: 70%;
-  
 }
 
-.left, .right {
+.left,
+.right {
   display: flex;
   flex-direction: column;
   border: 1px solid #ddd;
@@ -76,7 +75,8 @@ body h3 {
   margin: 1;
 }
 
-.meusContatos {}
+.meusContatos {
+}
 
 .meusContatos a {
   display: block;
@@ -91,17 +91,17 @@ body h3 {
 }
 
 .comunidades h3 {
-  margin-top: 2em;  
+  margin-top: 2em;
 }
 
 /* link que foi visitado */
 .comunidades a:visited {
-    color: black;
+  color: black;
 }
- 
+
 /* mouse over */
 .comunidades a:hover {
-  font-weight: bold
+  font-weight: bold;
 }
 
 .row {
@@ -113,18 +113,23 @@ body h3 {
 }
 
 .tecnologiaGosto {
-  padding-top: 10px;
+  padding-top: 30px;
   margin-top: -35px;
   margin-right: 10px;
 }
 
 .tecnologiaAprender h3 {
-  margin-top: 50px;    
+  margin-top: 50px;
 }
 
 .eventosParticipei {
-  padding-top: 10px;
+  padding-top: 30px;
   margin-top: -35px;
+  margin-right: 10px;
+}
+
+.conteudo {
+  min-width: 200px;
 }
 
 /* Responsividade:
@@ -134,30 +139,31 @@ c.	Em Tablets: Largura Máx. de 750px
 d.	Em Celulares: Largura Automática
 */
 
-@media (max-width: 970px){
-/* Desktops */
-  header{
-        height: 38vh;
-        padding: 2vh;
-    }
-} 
+@media (max-width: 970px) {
+  /* Desktops */
+  header {
+    height: 38vh;
+    padding: 2vh;
+  }
+}
 
-@media (max-width: 750px){
-/* Tablets */
-    .container{
-        text-align: center;
-    }
-    header{
-        height: 30vh;
-    }
-    .text-container{
-        display: inline;
-    }
-    .right, .left {
-        display: inline-block;
-        width: 100%;
-        text-align: center;
-        padding: 0px;
-        margin: 0;
-    }
+@media (max-width: 750px) {
+  /* Tablets */
+  .container {
+    text-align: center;
+  }
+  header {
+    height: 30vh;
+  }
+  .text-container {
+    display: inline;
+  }
+  .right,
+  .left {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    padding: 0px;
+    margin: 0;
+  }
 }
