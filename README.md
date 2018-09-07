@@ -15,6 +15,7 @@ Os valores de referência para adaptação da interface foi:
 
 O resultado do meu trabalho vocês conferem aqui: https://s.codepen.io/leticiacamposs/debug/ZMeNgr/GnAnbNXZGRvA
 
+![Layout Feito](img/layoutFeito.jpg)
 
 
 # Torçam por mim, haha :)
