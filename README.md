@@ -13,7 +13,7 @@ Os valores de referência para adaptação da interface foi:
 * c.	Em Tablets: Largura Máx. de 750px
 * d.	Em Celulares: Largura Automática
 
-O resultado do meu trabalho vocês conferem aqui: https://s.codepen.io/leticiacamposs/debug/ZMeNgr/GnAnbNXZGRvA
+O resultado do meu trabalho vocês conferem aqui: https://codepen.io/leticiacamposs/pen/ZMeNgr
 
 ![Layout Feito](img/layoutFeito.jpg)
 
